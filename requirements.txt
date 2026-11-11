@@ -1,0 +1,8 @@
+# Versiones exactas del entorno .envmlops (Python 3.12).
+# Son las librerías del flujo: seguimiento, datos, modelo y gráficos.
+mlflow==3.18.0
+scikit-learn==1.9.1
+pandas==3.1.1
+numpy==2.5.4
+matplotlib==3.11.2
+python-dotenv==1.2.4

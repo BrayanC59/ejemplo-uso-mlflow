@@ -1,0 +1,15 @@
+# Secretos y entorno local
+.env
+.venv/
+.envmlops/
+
+# Generados por MLflow
+mlflow.db
+mlruns/
+
+# Python y notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+credit_risk_dataset.csv

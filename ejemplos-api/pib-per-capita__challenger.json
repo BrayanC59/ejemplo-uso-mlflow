@@ -1,0 +1,20 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "country_code",
+      "sub_region",
+      "year",
+      "gdp_per_capita_lag1",
+      "gdp_variation_lag1"
+    ],
+    "data": [
+      [
+        "ABW",
+        "LATIN AMERICA AND THE CARIBBEAN",
+        1987,
+        6767.55922942669,
+        0.0
+      ]
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "modelo": "models:/pib-per-capita@challenger",
+  "version": 1,
+  "endpoint": "POST http://127.0.0.1:5001/invocations",
+  "esquema_entrada": [
+    {
+      "type": "string",
+      "name": "country_code",
+      "required": true
+    },
+    {
+      "type": "string",
+      "name": "sub_region",
+      "required": true
+    },
+    {
+      "type": "long",
+      "name": "year",
+      "required": true
+    },
+    {
+      "type": "double",
+      "name": "gdp_per_capita_lag1",
+      "required": true
+    },
+    {
+      "type": "double",
+      "name": "gdp_variation_lag1",
+      "required": true
+    }
+  ],
+  "esquema_salida": [
+    {
+      "type": "double",
+      "required": true
+    }
+  ]
+}

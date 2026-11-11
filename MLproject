@@ -1,0 +1,16 @@
+# Para usar `mlflow run`, define MLFLOW_TRACKING_URI y
+# MLFLOW_EXPERIMENT_NAME en el entorno antes de iniciar el comando.
+# También puedes ejecutar directamente `python src/train.py`; config.py
+# carga .env y configura el almacén sin crear un run padre adicional.
+
+name: pib-per-capita
+
+entry_points:
+  main:
+    command: "python src/train.py"
+  register:
+    command: "python src/register.py"
+  predict:
+    command: "python src/predict.py"
+  pipeline:
+    command: "python src/train.py && python src/register.py && python src/predict.py"
